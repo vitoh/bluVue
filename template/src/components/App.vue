@@ -1,7 +1,7 @@
 <template>
 	<div id="app">
-		<h1>{{ msg }}</h1>
-		<h2>{{ storeMessage }}</h2>
+		<h1>\{{ msg }}</h1>
+		<h2>\{{ storeMessage }}</h2>
 	</div>
 </template>
 

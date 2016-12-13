@@ -1,7 +1,12 @@
 import Vue from 'vue'
 import App from 'src/components/App.vue'
-import store from 'src/store/index.js'
+import Store from 'src/store/index.js'
 
+// Create an store instance
+const context = {}
+const store = Store(context)
+
+// Test the app
 describe('App.vue', () => {
 	const vm = new Vue({
 		el: document.createElement('div'),
