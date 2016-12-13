@@ -14,10 +14,8 @@ $ npm run dev
 
 ### What's Included
 
-- `npm run dev`: Webpack + `vue-loader` with proper config for source maps & hot-reload.
+- `npm run dev`: build a CLIENT and SERVER bundle and watch for changes in file, the server bundle is use for server side rendering.
 
-- `npm run build`: build with HTML/CSS/JS minification.
+- `npm run build`: build the client and server bundles.
 
-- `npm run unit`: run the unit test
-
-- `npm run e2e`: run the acceptance test
+- `npm run unit`: run the unit test.

@@ -9,12 +9,12 @@
       "type": "string",
       "required": true,
       "label": "Project description",
-      "default": "A Vue.js project"
+      "default": "A bluCommerce project"
     },
     "author": {
       "type": "string",
       "label": "Author"
     }
   },
-  "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run dev\n src/main.js is your entry point\n"
+  "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run dev\n start from src/components/App.vue\n"
 }
